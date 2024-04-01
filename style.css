@@ -1,0 +1,100 @@
+/*  */
+body{
+    background-color: rgb(169, 113, 221);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    justify-content: space-between;
+    min-height: 100px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: 10px solid rgb(116, 102, 241);
+}
+
+main{
+    border-top: 0px;
+    min-height: 200px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;  
+    box-sizing: border-box;
+    border: 10px solid bisque;
+    border-radius: 50px;
+
+}
+main h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    color: rgb(62, 62, 243);
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+main p{
+    padding-left: 50px;
+    font-size: 17px;
+}
+
+.educationsection p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    font-size: 17px;
+    padding: 10px;
+
+}
+h3{
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    text-decoration: underline;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+hr{
+    border: 5px solid rgb(230, 182, 182);
+}
+
+.references{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: auto;
+}
+.rbox{
+    margin-top: 0px;
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+.rbox p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    min-height: 10px;
+    width: 1024px;
+    background-color: rgb(202, 197, 197);
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: white;
+    font-size: 17px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 50px 50px;
+    /* border: 1px solid rgb(202, 197, 197); */
+
+}
